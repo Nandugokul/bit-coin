@@ -1,0 +1,16 @@
+.heroHeading {
+  color: #e9edf8;
+  font-family: "Monomaniac One";
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.heroSection {
+  background-image: url("../../assets/ImagesAndIcons/Images/heroBG.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}

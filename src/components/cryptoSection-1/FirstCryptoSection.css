@@ -1,0 +1,12 @@
+.imageWrapper {
+  overflow: hidden;
+  border-radius: 1.5rem;
+  box-shadow: 8px 6px 30px 0px rgba(0, 0, 0, 0.16);
+  height: 30vw;
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  background-image: url(../../assets/ImagesAndIcons/Images/serviceSectionImg.jpg);
+}
