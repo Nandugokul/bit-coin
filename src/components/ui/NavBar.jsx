@@ -1,8 +1,8 @@
 import logo from "../../assets/ImagesAndIcons/SVG/bitNowLogo.svg";
 function NavBar() {
   return (
-    <nav className="flex py-4 fixed top-0 h-[10vh] w-full px-32 z-50">
-      <div className="w-1/4">
+    <nav className="flex justify-end py-4 absolute top-0 h-[10vh] w-full px-32 z-50">
+      <div>
         <img src={logo} alt="logo" />
       </div>
       <div className="flex flex-grow space-x-6 justify-end items-center">

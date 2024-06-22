@@ -9,12 +9,15 @@ import "./Footer.css";
 function Footer() {
   return (
     <footer className="mt-40 footerSection">
-      <div className="px-32 border-b border-[#D7F5FF0A] pb-11">
+      <div className="px-32 border-b-2 border-[#D7F5FF0A] pb-11">
         <div className=" flex justify-between">
           <div className="flex flex-col justify-between">
             <div>
-              <img src={logo} alt="logo" />
-              <small>Lorem Ipsum, jhdjnfnj Htehiuijnerv</small>
+              <img src={logo} alt="logo" className="mb-2" />
+              <small>
+                Lorem Ipsum, jhdjnfnj <br />
+                Htehiuijnerv
+              </small>
             </div>
             <div className="flex space-x-8">
               <img src={facebookIcon} alt="facebook" />

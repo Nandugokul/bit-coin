@@ -34,3 +34,8 @@ body {
 a {
   cursor: pointer;
 }
+.carouselCard {
+  border-radius: 1.5rem;
+  background: rgba(31, 84, 100, 0.3);
+  box-shadow: 8px 6px 30px 0px rgba(0, 0, 0, 0.16);
+}

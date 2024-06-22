@@ -1,0 +1,8 @@
+.AccordionSection {
+  border-radius: 2.5rem;
+  background: rgba(228, 228, 228, 0.18);
+}
+.singleAccordion {
+  border-radius: 1.5rem;
+  background: #5e767f;
+}
