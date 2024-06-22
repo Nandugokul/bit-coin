@@ -41,9 +41,9 @@ function Accordion() {
         </p>
       </div>
       <div className="singleAccordion">
-        {dummyData.map((accordion) => (
+        {dummyData.map((accordion, index) => (
           <SingleAccordion
-            key={accordion.heading}
+            key={index}
             heading={accordion.heading}
             content={accordion.content}
           />
