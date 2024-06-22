@@ -47,13 +47,13 @@ function HeroSection() {
       .to(".comprahensiveSupportContainer", {
         delay: 1,
         x: 0,
-        y: 150, // Change y to move downwards
+        y: 100, // Change y to move downwards
         duration: 1,
         ease: "power1.inOut",
       })
       .to(".comprahensiveSupportContainer", {
         delay: 1,
-        x: 100, // Move back to the original x position
+        x: 150, // Move back to the original x position
         y: 0,
         duration: 1,
         ease: "power1.inOut",

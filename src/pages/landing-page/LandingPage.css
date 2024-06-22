@@ -1,0 +1,12 @@
+.firstBg {
+  background-image: url("../../assets/ImagesAndIcons/Images/networkBG.png");
+  background-repeat: no-repeat;
+  background-position: -10rem 60rem;
+  background-size: 70%;
+}
+.secondBg {
+  background-image: url("../../assets/ImagesAndIcons/Images/networkBG.png");
+  background-repeat: no-repeat;
+  background-position: 50rem 5rem;
+  background-size: 60%;
+}

@@ -4,18 +4,21 @@ import FirstCryptoSection from "../../components/cryptoSection-1/FirstCryptoSect
 import Footer from "../../components/footer/Footer";
 import HeroSection from "../../components/hero-section/HeroSection";
 import NavBar from "../../components/ui/NavBar";
-import SingleCarouselCard from "../../components/ui/SingleCarouselCard";
-
+import "./LandingPage.css";
 function LandingPage() {
   return (
     <>
-      <div>
+      <div className="landingPage overflow-hidden">
         <NavBar />
-        <HeroSection />
-        <FirstCryptoSection />
-        <Carousel />
-        <Accordion />
-        <Footer />
+        <div className="firstBg">
+          <HeroSection />
+          <FirstCryptoSection />
+          <Carousel />
+        </div>
+        <div className="secondBg">
+          <Accordion />
+          <Footer />
+        </div>
       </div>
     </>
   );
